@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+header {
+    background-color: lawngreen;
+    color: deeppink;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header + div  {
+    margin: 15px 0px;
+    display: flex;
+    background-color: aqua;
+}
+
+img {
+    width: 100px;
+    border: 1px dotted plum;
+    margin: 5px;
+    padding: 10px;
+}

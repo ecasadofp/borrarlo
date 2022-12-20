@@ -1,0 +1,30 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: darkred;
+    color: bisque;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
+nav {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(80, 78, 46);
+    width: 100%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color:rgb(80, 78, 46) ;
+    color:lightgray ;
+}
